@@ -1,0 +1,144 @@
+
+@charset "utf-8";
+
+body{ 
+background-color: #dddddd;
+font-family:justify;
+text-align: left;
+ }
+ p { text-align: justify;
+    text-indent: 50px;
+
+}
+h2#hle{
+	padding: 20px;
+}
+
+table#tabelaMenu{
+ top: 100px;	
+}
+table#tabelaspec{
+	border: 1px solid #606060;
+	border-spacing: 0px;	
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #cecece;
+}
+table#tabelaspec td{
+	border: 1px solid #606060;
+   padding: 10px;
+}	
+div#interface {
+	width: 800px;
+background-color: white;
+margin: -20px auto 0px auto;	
+box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+padding: 20px;
+
+}
+header#cabecalho {
+	border-bottom: 2px #606060 solid;
+	height: 150px;
+}   
+header#cabecalho h2{
+	Font-family: Arial, sans-serif;
+	font-size: 30pt;
+	color:#606060;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	
+}
+/* Formatação do menu */
+nav#menu {
+	display:block;
+	
+	}
+nav#menu li:hover{
+	background-color: #606060;
+	
+}
+nav#menu ul {
+    list-style: none;
+    text-transform:uppercase;
+	position:absolute;
+	top: -20px;
+	left:600px;
+	
+	}
+nav#menu li{
+	background-color:#dddddd;
+	display:inline-block;
+	padding: 10px;
+	margin: 2px;
+	transition: background-color 2s;
+	
+}
+nav#menu h1{
+	display:none;
+	
+}
+nav#menu a{
+	color:#000000;
+	text-decoration: blink ;
+	
+}
+nav#menu a:hover{
+color:#ffffff;
+text-decoration: underline;
+}
+
+nav#tituloindex a{
+  font-family: sans-serif;
+  color:#000000;
+  text-decoration: blink ;	
+}
+
+nav#tituloindex a:hover{
+  color:#606060;
+  text-decoration: underline ;	
+}
+
+nav#tituloindex ul{
+  font-family: sans-serif;
+  color:#000000;
+  text-decoration: blink ;
+}
+
+/*titulos*/
+IMG.titulo1{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+IMG.titulo2Zeus{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+IMG.titulo3flash{
+  display: block;  
+  margin-left: auto;
+  margin-right: auto;	
+}
+
+IMG.titulo4Mibr{
+  display: block;  
+  margin-left: auto;
+  margin-right: auto;		
+}
+/*titulos*/
+section#corpo{
+	display: block;
+	width: 800px;
+	float:center;
+	padding-right: 15px;
+}
+
+footer#rodape {
+	clear: both;
+	border-top: 2px solid #606060;
+}
+footer#rodape p {
+	text-align: center;
+}
